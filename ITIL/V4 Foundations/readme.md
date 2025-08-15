@@ -17,11 +17,13 @@ Organization - a group of people that has its own function, responsibilities and
 
 
 A service is a means of enabling Value co-creation by facilitating desired outcomes for customers without the customer having to manage specific costs and risks.
+
 Product - a configuration of resources, created by the organization that will be potentially valuable to customers.
+
 Service offering - a specific mix of services and products to a specific customer:
-	goods - ownership is transferred to customer
-	Access to resources - Ownership is not transferred to the consumer.  Access is granted/licensed under agreed terms or conditions
-	Service actions - performed by the provider to address a consumer need.  Performed according to agreement with the consumer.
+	- goods - ownership is transferred to customer
+	- Access to resources - Ownership is not transferred to the consumer.  Access is granted/licensed under agreed terms or conditions
+	- Service actions - performed by the provider to address a consumer need.  Performed according to agreement with the consumer.
 	
 
 output is a tangible or intangible deliverable of an activity
