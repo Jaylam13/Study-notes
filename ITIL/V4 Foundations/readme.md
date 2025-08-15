@@ -25,9 +25,8 @@ Product - a configuration of resources, created by the organization that will be
   - Access to resources - Ownership is not transferred to the consumer.  Access is granted/licensed under agreed terms or conditions
   - Service actions - performed by the provider to address a consumer need.  Performed according to agreement with the consumer.
 	
-
-output is a tangible or intangible deliverable of an activity
-outcome is a results for a stakeholder enabled by one or more outputs
+Output is a tangible or intangible deliverable of an activity.
+Outcome is a results for a stakeholder enabled by one or more outputs.
 cost - can be removed from the customer (part of value proposition) and can be imposed on the customer (price for the service consumption)
 risk - Uncertainty of outcome.  Can be good (opportunity) or bad (hazard)
 utility - fit for purpose.  functionality ordered by a product or service to meet a particular need.  Essentially 'what the service does' and can be used to determine whether a service is fit for purpose
