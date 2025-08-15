@@ -3,8 +3,8 @@
 ## Manage Azure identities and governance## 
 ### RBAC Roles### 
 * Contributor
-- Full access to manage Azure resources
-** Cannot assign roles in Azure RBAC
+  Full access to manage Azure resources
+  Cannot assign roles in Azure RBAC
 * Owner
 ** Full access to manage Azure resources
 ** Can assign roles to other users in Azure RBAC
