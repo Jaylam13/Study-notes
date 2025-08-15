@@ -498,7 +498,7 @@ This is used to move data between tiers.  An example would be to move data from 
 
 ## Monitor and back up Azure resources 
 
-### Dashboard### 
+### Dashboard 
 * The maximum number of days for which data can be pinned as a chart on the dashboard is 14
 
 ### Azure Monitor 
