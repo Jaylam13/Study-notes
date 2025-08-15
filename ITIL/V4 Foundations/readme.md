@@ -79,34 +79,34 @@ Warranty - fir for use. Assurance that a product or service will meet agreed req
 	- Practices
 	- Continual improvement
 	
-The service value chain:
-Part of the service value system.
-Universally applicable to any org.
-Transforms demand in to value.
-	Plan - Ensure shared understanding of vision, current status and direction
-	Improvement - Continual improvement of products and services
-	Engage - Understand stakeholder needs and demand
-	Design and transition - Make sure that services meet stakeholder needs
-	Obtain and build - Ensure components are avalible when needed
-	Deliver and support - Ensure SLA confirm service delivery
+- The service value chain:
+  - Part of the service value system.
+  - Universally applicable to any org.
+  - Transforms demand in to value.
+    - Plan - Ensure shared understanding of vision, current status and direction
+    - Improvement - Continual improvement of products and services
+    - Engage - Understand stakeholder needs and demand
+    - Design and transition - Make sure that services meet stakeholder needs
+    - Obtain and build - Ensure components are avalible when needed
+    - Deliver and support - Ensure SLA confirm service delivery
 	
-Most important practices:
-	General management practices:
-		Continual improvement
-			Responsibility of everyone
-	Service management practices:
-		Change enablement
-			Standard - pre authorized, low risk, low cost, basically service requests
-			Normal - Authorization depends on what kind of change it is.  Goes through the normal change workflow
-			Emergency - Needs rapid action.  May have a separate change authority.
-		incident management
-			incident - unplanned interruption or reduction of quality
-			manjor incident - needs a separate procedure.  Swarming can be user for quicker solutions.
-			Uses the same categoraztion as problem tickets.
-		problem management
-		service desk
-		service level management
-		service request management
+- Most important practices:
+  - General management practices:
+	- Continual improvement
+    	- Responsibility of everyone
+     - Service management practices:
+	   - Change enablement
+         - Standard - pre authorized, low risk, low cost, basically service requests
+         - Normal - Authorization depends on what kind of change it is.  Goes through the normal change workflow
+         - Emergency - Needs rapid action.  May have a separate change authority.
+	   - incident management
+         - incident - unplanned interruption or reduction of quality
+         - manjor incident - needs a separate procedure.  Swarming can be user for quicker solutions.
+         - Uses the same categoraztion as problem tickets.
+	   - problem management
+	   - service desk
+	   - service level management
+	   - service request management
 
 A practice by definition is a set of org resources designed to perform work or objective.
 
@@ -121,12 +121,12 @@ service desk should be single point of contact between users and the service pro
 sla - between customer and service provider
 ola - between different units of the same service provider
 
-relationship management:
-	relationships are analyzed, monitored and improved
+- relationship management:
+  - relationships are analyzed, monitored and improved
 	
-it asset management:
-	plans and manages the full lifecycle of IT assets to maximize their value, control cost, support devicions
-	an IT asset is any financially valued component that can contribute to the delivery of it products or services.
+- it asset management:
+  - plans and manages the full lifecycle of IT assets to maximize their value, control cost, support devicions
+  - an IT asset is any financially valued component that can contribute to the delivery of it products or services.
 	
 even is any change of state that has significance for the management of a configuration item or service
 
