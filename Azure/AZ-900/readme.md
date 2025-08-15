@@ -1,4 +1,4 @@
-#Storage#
+#Storage
 * Blob storage is a flat structure used for unstructured data (images, videos etc) and is normally used for large objects.
 * Azure file storage and Azure Data Lake storage are hierarchical file storage similar to SMB shares, both of which you can do shares on
 * Azure Queue Storage, A data store for queuing and reliably delivering messages between applications
