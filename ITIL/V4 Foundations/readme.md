@@ -1,13 +1,19 @@
 # V4 Foundations
 
 
-Service management - is defined as a set of specialised organization capabilities for enabling value to customers in the form of services
-value - the perceived benefits, usefulness and importance of something
-customers - define requirements for services and take responsibility for outcomes
-Users - use services
-Sponsors - authorize the budget for service consumption
-supplier - external partner who provides services to the organization
-organization - a group of people that has its own function, responsibilities and authority to achieve specific objectives.
+Service management - is defined as a set of specialised organization capabilities for enabling value to customers in the form of services.
+
+Value - the perceived benefits, usefulness and importance of something.
+
+Customers - define requirements for services and take responsibility for outcomes.
+
+Users - use services.
+
+Sponsors - authorize the budget for service consumption.
+
+Supplier - external partner who provides services to the organization.
+
+Organization - a group of people that has its own function, responsibilities and authority to achieve specific objectives.
 
 
 A service is a means of enabling Value co-creation by facilitating desired outcomes for customers without the customer having to manage specific costs and risks.
