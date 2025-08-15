@@ -6,12 +6,12 @@
   - Full access to manage Azure resources
   - Cannot assign roles in Azure RBAC
 * Owner
-** Full access to manage Azure resources
-** Can assign roles to other users in Azure RBAC
+  - Full access to manage Azure resources
+  - Can assign roles to other users in Azure RBAC
 * Reader
-** Can view resources but cannot make changes
+  - Can view resources but cannot make changes
 * User Access Administrator
-** Can manage user access to Azure resources
+  - Can manage user access to Azure resources
 * There is a limit of 2000 custom roles per tenant
 * devtest labs user role only lets you connect, start, restart and shutdown virtual machines in azure devtest labs.
 * You can assign custom roles to users, groups, and service principals at management group, subscription, and resource group scopes.
