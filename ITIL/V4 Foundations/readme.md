@@ -26,53 +26,58 @@ Product - a configuration of resources, created by the organization that will be
   - Service actions - performed by the provider to address a consumer need.  Performed according to agreement with the consumer.
 	
 Output is a tangible or intangible deliverable of an activity.
+
 Outcome is a results for a stakeholder enabled by one or more outputs.
-cost - can be removed from the customer (part of value proposition) and can be imposed on the customer (price for the service consumption)
-risk - Uncertainty of outcome.  Can be good (opportunity) or bad (hazard)
-utility - fit for purpose.  functionality ordered by a product or service to meet a particular need.  Essentially 'what the service does' and can be used to determine whether a service is fit for purpose
+
+Cost - can be removed from the customer (part of value proposition) and can be imposed on the customer (price for the service consumption).
+
+Risk - Uncertainty of outcome.  Can be good (opportunity) or bad (hazard).
+
+Utility - fit for purpose.  functionality ordered by a product or service to meet a particular need.  Essentially 'what the service does' and can be used to determine whether a service is fit for purpose.
+
 Warranty - fir for use. Assurance that a product or service will meet agreed requirements.  How the service performs and used to determine whether a service is fit for use.
 
 
-4 dimensions:
-	Voip - can be influenced by the organization
-		Voip = Value streams & partners, Organizations & people, Information & security, Partners & suppliers
-	Pestle - Political, economical, social, technological, legal, environmental
-		Pestle - External factors that cannot be influenced but need to be considered.
+- 4 dimensions:
+  - Voip - can be influenced by the organization
+	- Voip = Value streams & partners, Organizations & people, Information & security, Partners & suppliers
+  - Pestle - Political, economical, social, technological, legal, environmental
+	- Pestle - External factors that cannot be influenced but need to be considered.
 
-Value Streams and processes:
-	activities the organization undertakes
-	organization of these activities ensuring value to stakeholders
-	exercise value stream mapping
-Organizations and people:
-	Organization structures
-	Decision making habits
-	Staffing and skills requirements
-	Culture and leadership styles
-Information and technology:
-	Information and tools needed
-	Technologies and innovation
-	Relationship between components
-	Culture of knowledge management
-Partners and suppliers:
-	Relationship with external vendors
-	Factors that influence suppliers strategies
-	Service integration management
-	Vendor selection procedures
+- Value Streams and processes:
+  - activities the organization undertakes
+  - organization of these activities ensuring value to stakeholders
+  - exercise value stream mapping
+- Organizations and people:
+  - Organization structures
+  - Decision making habits
+  - Staffing and skills requirements
+  - Culture and leadership styles
+- Information and technology:
+  - Information and tools needed
+  - Technologies and innovation
+  - Relationship between components
+  - Culture of knowledge management
+- Partners and suppliers:
+  - Relationship with external vendors
+  - Factors that influence suppliers strategies
+  - Service integration management
+  - Vendor selection procedures
 	
-The service value system:
-Converts opportunity and demand by applying our own service management magic in to value for customers.
-	Guiding principles -
-		Recommendations that guide organizations in any circumstances, even for implementing ITIL4
-		Focus on value - everything we do must be either directly or indirectly valuable to your stakeholders
-		Start where you are - reuse existing resources where possible instead of reinventing the wheel over and over again
-		Progress iteratively with feedback - Dont do everything at once, take baby-steps instead of learning by doing with lots of feedback
-		Collaborate and promote visibility - Involve the right people at the right time and gather factual data to make the right decisions.
-		Think and work holistically - Nothing is every alone, think about the effect of your initiative or work on other components.  How components are connected to other components.
-		Keep it simple and practical - Dont over complicate work.  Use the least possible steps.  Outcome based thinking helps.
-		Optimize and automate - maximize the value of human work.  Automate only after optimization. Apply DevOps.
-	Governance
-	Practices
-	Continual improvement
+- The service value system:
+  - Converts opportunity and demand by applying our own service management magic in to value for customers.
+	- Guiding principles
+      - Recommendations that guide organizations in any circumstances, even for implementing ITIL4
+      - Focus on value - everything we do must be either directly or indirectly valuable to your stakeholders
+      - Start where you are - reuse existing resources where possible instead of reinventing the wheel over and over again
+      - Progress iteratively with feedback - Dont do everything at once, take baby-steps instead of learning by doing with lots of feedback
+      - Collaborate and promote visibility - Involve the right people at the right time and gather factual data to make the right decisions.
+      - Think and work holistically - Nothing is every alone, think about the effect of your initiative or work on other components.  How components are connected to other components.
+      - Keep it simple and practical - Dont over complicate work.  Use the least possible steps.  Outcome based thinking helps.
+      - Optimize and automate - maximize the value of human work.  Automate only after optimization. Apply DevOps.
+	- Governance
+	- Practices
+	- Continual improvement
 	
 The service value chain:
 Part of the service value system.
