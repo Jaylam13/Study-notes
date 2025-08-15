@@ -1,4 +1,4 @@
-==Storage==
+#Storage#
 * Blob storage is a flat structure used for unstructured data (images, videos etc) and is normally used for large objects.
 * Azure file storage and Azure Data Lake storage are hierarchical file storage similar to SMB shares, both of which you can do shares on
 * Azure Queue Storage, A data store for queuing and reliably delivering messages between applications
@@ -19,7 +19,7 @@
 * Archive storage is offline, you will need to move the data to cold or hot to interact with it
 * BLOB = Binary Large Object
 
-==Connectivity/Networking==
+#Connectivity/Networking#
 * Azure Express route is more expensive than a site to site VPN
 * You can also have a private connection to Azure via a Meet me
 * Azure Express route does not traverse the internet, it's a private connection
@@ -43,50 +43,50 @@
 * WIth NSG you can create rules based on the service tags I.E Azure storage account as it has multiple IPs you could just use 1 tag
 * You can apply a NSG to a subnet or a network interface but at the interface level its harder to manage.
 
-==Subscriptions==
+#Subscriptions#
 * One subscription can have a max of 980 resource groups
 * One subscription can have a max of 50 tags
 * A subscription is a collection of resources
 
-==Azure Migrate==
+#Azure Migrate#
 Azure Migrate discovers on prem servers both physical and virtual and also both on Hyper-V and vmWare, it then assess the machine and tells you if its ready to migrate to Azure.
 
 It will tell you how big the vm will be, how much it will cost and any other dependent servers that will also need to be migrated.
 
 It will also help you migrate SQL Servers, WebApps, Desktops and data.
 
-==Azure Container Instance==
+#Azure Container Instance#
 Allows you to run a container with a single command.
 
-==Azure Kubernetes==
+#Azure Kubernetes#
 * Allows you to run multiple containers which is known as a container orchestrator
 * Azure Kubernetes Service, Cluster management for VMs that run containerized services.
 
-==Azure Functions==
+#Azure Functions#
 * This is a serverless event driven offering, allowing for individual functions to run and you only pay for it when it gets used.
 * Azure Functions run off code so you will need to write code to create the function
 * Azure Functions are stateless
 
-==Billing==
+#Billing#
 * A billing account is an agreement between you and Mircosoft that you are using Azure Services.
 * CAPEX - Purchasing something up front, this normally refers to an on prem solution
 * OPPEX - Purchasing resources or services as we use it, this normally refers to a cloud offering
 * Azure Cost Management allows for cost analysis, budgets, alerts and recommendations you must have a Enterprise agreement
 
-==Regions==
+#Regions#
 * A region that supports availability zones has at least 3 datacenters, each datacenter is known as a zone.
 * When viewing the Microsoft datacenter location map, if it has a diamond on it then that means it supports availability zones.
 * All regions that support availability zones will see a min of 3 zones
 * Zone redundant will distribute whatever you are deploying over zones automatically to ensure it is resilliant
 
-==Cloudshell==
+#Cloudshell#
 * Cloudshell supports both powershell and bash
 * The first time you run CloudShell it will ask you for permission to create a storage account that the CloudShell vm can us
 
-==Microsoft Defender For Cloud==
+#Microsoft Defender For Cloud#
 * Previously known as Azure Security Center
 
-==Azure DataBox==
+#Azure DataBox#
 These are basically a box (nas box) that gets sent to you, you copy your data to it and send it back to Azure and they ingest it in to Azure.
 
 The sizes are:
@@ -94,26 +94,26 @@ The sizes are:
 * Azure data box = 80tb
 * Azure data box heavy = 770tb
 
-==Management==
+#Management#
 * Every tennant has a root management level, you can add 6 levels of groups under this
 * Management groups help to manage groups of subscriptions
 * Multiple subscriptions can be put in a management group
 
-==Azure Monitor==
+#Azure Monitor#
 * Azure Monitor is a collection of monitoring tools to keep an eye on everything.
 * You can create alert rules for example when storage is running low then you can use an Action Rule to do something like send an email or sms etc
 
-==Azure Service Health==
+#Azure Service Health#
 * This is in the Portal under Help & Support.  It shows you health issues with Azure, upcoming maint work.  You can also setup alerts to notify you if there are issues with things that will affect things you are running.
 
-==Azure Logic Apps==
+#Azure Logic Apps#
 * Low or no code required
 * These do something based on a trigger.  So for example if a file is uploaded or a web request received it will do something.  No code is required for this, its a logic drag and drop interface.
 
-==Availability Zones==
+#Availability Zones#
 * When deploying a vm in to an availability zone ensure each vm is in a different zone number
 
-==Azure Devops==
+#Azure Devops#
 * Helps devops build, test, create environments.
 * Azure Pipelines allows you to create continuous workflows to build, test and deploy code.
 * Azure dev test labs allows you to spin up dev non prod environments, it allows admins to control costs by setting limits on how many vms can be deployed at once and ensuring vms are shut down when not in use.
@@ -121,28 +121,28 @@ The sizes are:
 * Formally known as Visual Studio Team Services
 * Azure DevTest Labs, quickly create on demand Windows and Linux environments to test or demo applications directly from deployment pipelines
 
-==Azure IoT==
+#Azure IoT#
 * Azure IoT central allows you to connect to thermostats, alarms etc.  It is a fully managed sas solution.  It allows you to create IoT applications without writing any code.  It allows you to connect, monitor and manage IoT.  This also has dashboards that can be customised. 
 * IoT Hub allows you to integrate your applications with devices, this is where the IoT devices connect in via.  It provides secure communications between millions of IoT devices.
 * Azure Sphere makes your IoT devices more secure.  Which includes certified chips, Azure sphere operating system and Azure sphere security service which adds a layer of security to IoT devices.  Sphere prevents bad things being sent to IoT devices and vice versa.
 * IoT Edge is a fully managed service that allows data analysis models to be pushed directly onto IoT devices, which allows them to react quickly to state changes without needing to consult cloud based AI models
 
-==Azure backup==
+#Azure backup#
 * Azure backup can backup both Azure and on prem machine
 
-==Azure Advisor==
+#Azure Advisor#
 * Azure Advisor can suggest how to improve, solution and reduce cost on your environment.  For example point out over provisioned machines and suggest a smaller more cost effective machine, it also suggests security recommendations.
 
-==Analytics==
+#Analytics#
 * Azure HDInsight is older, supports haddop, spark, hive and storm)
 * Azure DataBricks is more user friendly and easier to manage than HDInsights and Azure Synapse Analytics.  It supports all previously supported version but also Spark
 * Azure Synapse Analytics, Fully managed data warehouse with integral security at every level of scale at no extra cost.  This brings all the data factory stuff in to one workplace.  This brings data warehousing and big data analytics together
 * Azure data factory is what orchestrates the data lake services.
 
-==Azure CDN==
+#Azure CDN#
 * Azure CDN caches most freq content around the world so users will get it from the nearest server to them
 
-==Databases==
+#Databases#
 * Azure Cosmos DB, globally distributed database that supports NoSQL option
 * Azure SQL Database, fully managed relational database with auto-scale, integral intelligence and robust security
 * Azure Database for MySQL, fully managed and scabled MySQL, relational database with high availability and security
@@ -153,22 +153,22 @@ The sizes are:
 * MongoDB and Cassandra both has a key value pair
 * MongoDB and Cassandra can span multiple regions and able to store json docs
 
-==Shared responsibility Model==
+#Shared responsibility Model#
 * IAAS, storage, network, computer and hypervisor is all looked after by the provider (azure) os runtime and application layer is down to the customer
 * PAAS, Customer is just responsible for the application and data
 * SAAS, for example something like office365, no exchange servers or exchange just the email service.  This is all down to the provider.
 
-==Azure DDos Protection==
+#Azure DDos Protection#
 * Protects Azure hosted application from distributed denial of server attacks
 * Everything by default is protected by basic DDoS protection but it's more to protect Azure than you
 * Standard DDoS plan can be linked to vnets and uses machine learning to tune to learn your normal interaction, it also gives metrics and reporting
 * Rapid response means you can talk to a human in an attack and if it doesnt protect you I.E scaled up vms you can get credits
 * Azure standard DDoS cannot be used over multiple subscriptions
 
-==Azure Network Watcher==
+#Azure Network Watcher#
 * Monitors and diagnoses network issues by using scenario based analysis
 
-==Azure Firewall==
+#Azure Firewall#
 * Implements high security, high availability firewall with unlimited scalability
 * Auto scales bas on the demand it needs
 * Understands layer 4 and layer 7
@@ -180,15 +180,15 @@ The sizes are:
 * It can do DNAT rules
 * It uses vm scale sets behind the scenes
 
-==AI==
+#AI#
 * Azure Machine Learning Service, allows you to develop, train, test, deploy, manage and track machine learning models.  It can auto generate a model and auto tune it for you.  You can start on your local machine then scale out to the cloud.
 * Azure ML Studio, Collaborative visual workspace where you can build and deploy machine learning solutions by using prebuilt machine learning algorithms and data handling models.
 
-==Azure Policy==
+#Azure Policy#
 * A policy can be created on a resource group to limit things like "You can only deploy stuff in XXX region, budget etc etc"
 * You can create initiatives which is a collection of multiple polices, you then apply the initiative to something/
 
-==Azure Blueprints==
+#Azure Blueprints#
 * Allows you to deploy an entire environment, a blueprint is a collection of arm templates plus permissions.
 * Azure Blueprints allows you to define a repeatable set of governance tools and standard Azure resources that your organisation requires.
 
@@ -198,33 +198,33 @@ A blueprint is a collection of:
 * RBAC
 * Policy which is assigned to a subscription
 
-==Azure App Service==
+#Azure App Service#
 * Quickly create powerful cloud web based apps
 * App service free and shared means sharing resources with other customers
 
-==Azure Notification Hub==
+#Azure Notification Hub#
 Send push notifications to any platform from any back end
 
-==Azure API Management==
+#Azure API Management#
 Publish APIs to developers, partners and employees security and at scale
 
-==Azure Cognitive Search==
+#Azure Cognitive Search#
 * Fully managed search as a service
 
-==Serverless==
+#Serverless#
 * Also known Functions or Logic Apps.  A function could be used to run a scheduled PowerShell script of some other code and you would just pay for when it ran.  A Logic app requires no coding just a user friendly interface with pre made functions.
 
-==AI==
+#AI#
 * Azure Cognitive services, pre built AI bots
 * Azure Bot Server, build virtual agent
 
-==Scalability vs Elasticity==
+#Scalability vs Elasticity#
 Scalable environments only care about increasing capacity to accommodate an increasing workload.
 Elastic environments care about being able to meet current demands without under/over provisioning, in an autonomic fashion.
 
 Scalability will scale up if needed but you will be left with the addition resource is load reduces where as Elasticity will both scale up and down based on load.
 
-==Azure Key Vault==
+#Azure Key Vault#
 Azure Key Vault supports 3 different types of identity:
 * Secrert (read/write) like a password or share signature
 * Keys (generate and import but cannot export)
@@ -237,7 +237,7 @@ There are two types of authentication for key vault which are:
 * Role based, this is more granular, its a managed identity which is tied to a compute resource, the identity will be given permissions so it can authenticate with key vault
 * key vault is used to store secrets for server applications
 
-==Azure dedicated hosts==
+#Azure dedicated hosts#
 * You can create a dedicated host instance then add them to a host group and you can plit them over different fault domains (racks) this means only your vms go on these hosts not other vms from other customers.  
 * Each dedicated host can only run a certain SKU of vm and you choose which one.
 You have to pay for the use of the entire host even if you only use 10% of it.
@@ -245,12 +245,12 @@ You have to pay for the use of the entire host even if you only use 10% of it.
 
 If however you build an isolated vm type (big spec vm) you will be on your own host because your vm will just consume the entire machine.
 
-==Authentication vs Authorization==
+#Authentication vs Authorization#
 
 * authn (authentication) is the process of identifying a person or service, proving they are who they say they are
 * authz (authorization) is what that person or service can do once they have been authenticated.
 
-==SLA==
+#SLA#
 99.9 - 10 mins downtime a week
 
 99.95 - 5 mins downtime a week
@@ -259,36 +259,36 @@ If however you build an isolated vm type (big spec vm) you will be on your own h
 
 99.999 - 6 seconds downtime a week
 
-==Zero Trust==
+#Zero Trust#
 * verify explicitly
 * Use least privilege access
 * Assume breach
 
-==Microsoft Documents==
+#Microsoft Documents#
 * Microsoft Privacy statement = What personal information MS collects
 * Online Services Terms (OST) = What is the key agreement between client and MS
 * Data Protection Addendum = More information about the data processing, handling and security of my services
 
-==Soverinty==
+#Soverinty#
 * USA, China and Germany all have sperate Azure cloud for security
 * China's Azure for gov is run by 21Vianet
 
-==Reservations==
+#Reservations#
 * You can get big discounts on vms if you agree to a reserved instance, I.E.  I will agree to run this vm for XX years.  This means you get a massive discount BUT if you turn the machine off after a year you still have to pay the agreed rates for the rest of the term.
 
-==Azure Service Trust Portal==
+#Azure Service Trust Portal#
 * This has compliance and audit reports for things like sox, iso etc
 
-==Azure Trust Center==
+#Azure Trust Center#
 * Security, privacy, compliance, transparency, trust, GDPR etc standards and how it is auditied.  Regulatory documents.  It shows all the compliance offerings MS has.
 
-==Defence in Depth==
+#Defence in Depth#
 CIA = Confidentiality, integrity and availability
 
-==Sentinel==
+#Sentinel#
 This is a SIEM (Security Information Event Management).  It is also a SOAR (Security, orchastraction, Automation, Response).  Sentinel sits on top of log analytics workspace where all the logs get ingested. 
 
-==Azure AD Identity Protection==
+#Azure AD Identity Protection#
 Identity Protection allows organizations to accomplish three key tasks:
 
 * Automate the detection and remediation of identity-based risks.
@@ -304,7 +304,7 @@ Identity Protection detects risks of many types, including:
 * Leaked credentials
 * Password spray
 
-==Support plans==
+#Support plans#
 The support plans are as follows:
 * Basic - can request 24/7 support for billing only
 * Developer - can request support but only get response in working hours
@@ -313,18 +313,18 @@ The support plans are as follows:
 
 All the above can do the same with the exception of Standard and Professional Direct which both have 24/7 access to technical support by email and phone after a support request is submitted.
 
-==Azure Site Recovery==
+#Azure Site Recovery#
 * Can protect Azure vms and on prem
 * You only pay for what you spin up in DR
 * You can test DR plans with no impact
 
-==Service Trust Portal==
+#Service Trust Portal#
 * This is where it shows how MS has been audited against things
 * Had trust documents
 * Has results of MS test's and audits
 * This is where you would point your compliance officer for reports
 
-==Misc==
+#Misc#
 * Azure resource locks can prevent accidental deletion or modification of an Azure resource.  Even an administrator cannot delete it if the lock is in place, the lock will need to be deleted first then the resource deleted.  They can be applied to subscriptions, resource groups or resources.
 * Microsoft has Azur datacenters in every continent apart from Antarctica
 * If a virtual machine has a public IP address, if the vm is stopped/deallocated it will release the public ip address
