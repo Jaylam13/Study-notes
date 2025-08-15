@@ -1,7 +1,7 @@
 # AZ-104 - Microsoft Azure Administrator
 
-## Manage Azure identities and governance## 
-### RBAC Roles### 
+## Manage Azure identities and governance 
+### RBAC Roles 
 * Contributor
   - Full access to manage Azure resources
   - Cannot assign roles in Azure RBAC
@@ -19,30 +19,30 @@
 * There is a limit of 5,000 custom roles per tenant. (For Microsoft Azure operated by 21Vianet, the limit is 2,000 custom roles.) 
 * Custom roles can be created using the Azure portal, Azure PowerShell, Azure CLI, or the REST API.
 
-### Azure Policy### 
+### Azure Policy 
 * Used to ensure Azure resources comply and conform to company standards/requirements.  An example of this would be to set a policy to state that only a certain size vm can be deplyed in to the subscription
 * You create a poicy definition and under that conditions under which it is enforced along with an effect that takes place when these confitions are met
 
-### Tags### 
+### Tags 
 * Each resource or resource group is limited to a max of 15 tag names/value pairs
 * Tag names are limited to 512 characters and values limited to 256
 * Storage account tag names are limited to 128 characters and values limited to 256 characters
 * Virtual machines are limited to 2048 for all tag names and values
 * Tags cannot contain special characters
 
-### Resoruce groups### 
+### Resoruce groups 
 * When moving something from one resource group to another both resource groups are locked during the opertaion (write and delete operations are both locked until its finished)
 * The location of a resource does not change during a resource group move even if the new resource group is in a different location
 * To move a resource to another resource group the source and destination subscriptions must exist within the same Azure Active Directory tenant
 * The destination subscription must be registered for the resource provider of the resource being moved when trying to move a resource to another resource group
 * The account being used to move the resource must have these permissioned
-** Microsoft.Resources/Subscriptions/ResourceGroups/MoveResources/Action
-** Microsoft.Resources/Subscriptions/ResourceGroups/Write
+  - Microsoft.Resources/Subscriptions/ResourceGroups/MoveResources/Action
+  - Microsoft.Resources/Subscriptions/ResourceGroups/Write
 
-### Azure AD### 
+### Azure AD 
 * Azure Active Directory Basic, Premium P1 and Premium P2 are not currently supported in China
-** Azure AD Free
-*** Basic user and group management functionality and on=prem directory sync
+  - Azure AD Free
+    - Basic user and group management functionality and on=prem directory sync
 *** It offers basic reporting and single sign-on across Office 365, Microsoft Azure and many popular SaaS applications
 ** Azure AD Basic
 *** All the free options 
