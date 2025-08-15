@@ -20,10 +20,10 @@ A service is a means of enabling Value co-creation by facilitating desired outco
 
 Product - a configuration of resources, created by the organization that will be potentially valuable to customers.
 
-Service offering - a specific mix of services and products to a specific customer:
-	- goods - ownership is transferred to customer
-	- Access to resources - Ownership is not transferred to the consumer.  Access is granted/licensed under agreed terms or conditions
-	- Service actions - performed by the provider to address a consumer need.  Performed according to agreement with the consumer.
+- Service offering - a specific mix of services and products to a specific customer:
+  - goods - ownership is transferred to customer
+  - Access to resources - Ownership is not transferred to the consumer.  Access is granted/licensed under agreed terms or conditions
+  - Service actions - performed by the provider to address a consumer need.  Performed according to agreement with the consumer.
 	
 
 output is a tangible or intangible deliverable of an activity
