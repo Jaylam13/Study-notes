@@ -43,22 +43,22 @@
 * Azure Active Directory Basic, Premium P1 and Premium P2 are not currently supported in China
   - Azure AD Free
     - Basic user and group management functionality and on=prem directory sync
-*** It offers basic reporting and single sign-on across Office 365, Microsoft Azure and many popular SaaS applications
-** Azure AD Basic
-*** All the free options 
-*** Cloud centric application access as well as group based access management
-*** Self service password reset for cloud apps
-** Azure Active irectory Premium P1
-*** Hybrid user access to both on-prem and cloud resources
-*** Support for advanced administration tasks, such as:
-**** Self service group management
-**** Dynamic groups
-**** Intergrates with Microsoft Identity Manager
-**** Cloud write back capabilities
-** Azure Active Directory Premium P2
-*** Active Directory Identity Protection
-*** Privileged Identity Management (PIM)
-*** Just in time access
+    - It offers basic reporting and single sign-on across Office 365, Microsoft Azure and many popular SaaS applications
+  - Azure AD Basic
+    - All the free options 
+    - Cloud centric application access as well as group based access management
+    - Self service password reset for cloud apps
+  - Azure Active irectory Premium P1
+    - Hybrid user access to both on-prem and cloud resources
+    - Support for advanced administration tasks, such as:
+      - Self service group management
+      - Dynamic groups
+      - Intergrates with Microsoft Identity Manager
+      - Cloud write back capabilities
+  - Azure Active Directory Premium P2
+    - Active Directory Identity Protection
+    - Privileged Identity Management (PIM)
+    - Just in time access
 * Azure AD is NOT AD in the cloud
 * Azure AD can do single sign on and intergration with other apps/services without having to setup a complicated ADFS setup.  It can use OAUTH2, SAMAL etc etc
 * Azure AD will only talk to one Azure AD connect
